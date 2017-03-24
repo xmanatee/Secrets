@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="backgroundColor"
+        android:valueFrom="@color/textFieldLight"
+        android:valueTo="@color/textFieldRed" />
+    <objectAnimator
+        android:duration="300"
+        android:propertyName="backgroundColor"
+        android:valueFrom="@color/textFieldRed"
+        android:valueTo="@color/textFieldLight"
+        />
+</set>
