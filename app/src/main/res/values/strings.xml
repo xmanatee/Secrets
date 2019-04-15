@@ -24,7 +24,13 @@
     <!--SECTRET SCREEN-->
     <string name="secret_beginer">This one\nis\nBEGINER\nSECRET</string>
     <string name="secret_none">Sorry\nNo Secrets\nyou are\nLALAKA\n;P</string>
-    <string name="secret_gotcha">GOTCHA\nIt is not\nwhat easy\nStepan</string>
+    <string name="secret_gotcha">GOTCHA\nIt is not\nthat easy\nStepan</string>
     <string name="secret_star_wars">Yep\nThis one\nis for\nGEEEEKS</string>
     <string name="secret_real">I start\nto think\nyou know\nsome\nsecrets…</string>
+    <string name="secret_stamat">What?\nWhat?\nSTAMAT!!!</string>
+    <string name="secret_natasha">Who is my\nbest friend?\nCORRECT!!!</string>
+    <string name="secret_leet">Leet is\nmy creed ;)</string>
+    <string name="secret_nastya">Hmmm...\nWhat do you\nthink\nit means?</string>
+    <string name="secret_katya">Katya, shmatya:D</string>
+
 </resources>

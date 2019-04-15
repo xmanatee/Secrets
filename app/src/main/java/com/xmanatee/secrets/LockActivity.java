@@ -102,6 +102,11 @@ public class LockActivity extends AppCompatActivity {
         passToSecret.put("24021996", R.string.secret_none);
         passToSecret.put("14881488", R.string.secret_gotcha);
         passToSecret.put("18111998", R.string.secret_real);
+        passToSecret.put("13091992", R.string.secret_stamat);
+        passToSecret.put("09121996", R.string.secret_natasha);
+        passToSecret.put("13371337", R.string.secret_leet);
+        passToSecret.put("11081992", R.string.secret_nastya);
+        passToSecret.put("06061990", R.string.secret_katya);
     }
 
     private void initListener() {
