@@ -46,7 +46,7 @@ public class LockActivity extends AppCompatActivity {
                 clearAll();
             }
             else if (typed.endsWith("C3P0")) {
-                LockActivity.this.showSecret(R.string.star_wars_secret);
+                LockActivity.this.showSecret(R.string.secret_star_wars);
                 clearAll();
             }
             else if (activeTyped.length() == 8) {
@@ -73,7 +73,9 @@ public class LockActivity extends AppCompatActivity {
                     }
                     break;
                     case R.id.t9_key_backspace: { // handle backspace button
-                        activeTyped = activeTyped.substring(0, activeTyped.length() - 1);
+                        if (activeTyped.length() > 0) {
+                            activeTyped = activeTyped.substring(0, activeTyped.length() - 1);
+                        }
                     }
                 }
             }
@@ -96,10 +98,10 @@ public class LockActivity extends AppCompatActivity {
     }
 
     private void initSecrets() {
-        passToSecret.put("5", R.string.beginer_secret);
-        passToSecret.put("24021996", R.string.no_secret);
-        passToSecret.put("14881488", R.string.gotcha_secret);
-        passToSecret.put("18111998", R.string.real_secret);
+        passToSecret.put("55555555", R.string.secret_beginer);
+        passToSecret.put("24021996", R.string.secret_none);
+        passToSecret.put("14881488", R.string.secret_gotcha);
+        passToSecret.put("18111998", R.string.secret_real);
     }
 
     private void initListener() {

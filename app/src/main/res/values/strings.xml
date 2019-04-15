@@ -22,9 +22,9 @@
     <string name="main_button">">"</string>
 
     <!--SECTRET SCREEN-->
-    <string name="beginer_secret">This one\nis\nBEGINER\nSECRET</string>
-    <string name="no_secret">Sorry\nNo Secrets\nyou are\nLALAKA\n;P</string>
-    <string name="gotcha_secret">GOTCHA\nIt is not\nwhat easy\nStepan</string>
-    <string name="star_wars_secret">Yep\nThis one\nis for\nGEEEEKS</string>
-    <string name="real_secret">I start\nto think\nyou know\nsome\nsecrets…</string>
+    <string name="secret_beginer">This one\nis\nBEGINER\nSECRET</string>
+    <string name="secret_none">Sorry\nNo Secrets\nyou are\nLALAKA\n;P</string>
+    <string name="secret_gotcha">GOTCHA\nIt is not\nwhat easy\nStepan</string>
+    <string name="secret_star_wars">Yep\nThis one\nis for\nGEEEEKS</string>
+    <string name="secret_real">I start\nto think\nyou know\nsome\nsecrets…</string>
 </resources>
